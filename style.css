@@ -1,0 +1,191 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+}
+
+.container {
+     margin: 1vw;
+  color: grey;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+ 
+  padding-top: 5vh;
+  align-items: center;
+  opacity: 0.7;
+}
+
+li {
+  display: inline-block;
+  padding: 1rem 2rem 0;
+}
+
+hr {
+  width: 100vw;
+}
+
+.main {
+      font-size: 1rem;
+  display: flex;
+  width: 25rem;
+  min-width: 25%;
+  padding-top: 5vh;
+  margin: auto;
+  text-align: left;
+  display: block;
+  justify-content: center;
+  line-height: 2;
+}
+
+p {
+      padding-bottom: 5vh;
+  text-align: center;
+  width: 100%;
+}
+form {
+  text-align: center;
+}
+span {
+  display: block;
+  min-width: 20rem;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+
+i {
+  position: absolute;
+  padding-top: 1.7rem;
+  padding-left: 1rem;
+  text-align: center;
+  align-content: center;
+}
+input {
+  border: 1px solid grey;
+  background-color: whitesmoke;
+  width: 20rem;
+  align-content: center;
+  margin-top: 0.5rem;
+  padding: 1rem 3rem;
+  height: 2rem;
+  border-radius: 10px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  cursor: pointer;
+  padding: 0.5rem 3rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #00bc9c;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  opacity: 0.9;
+}
+
+footer {
+  padding: 2rem;
+  opacity: 0.7;
+}
+
+#signinFooter {
+      display: flex;
+      justify-content: space-between;
+padding: 0;
+margin-top: 5vh;
+  width: 25rem;
+}
+#signinFooter i {
+  color: #000;
+}
+a {
+padding: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: grey;
+}
+
+
+
+/*! welcome screen after login success */
+.navtop {
+	background-color: #2f3947;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #4a536e;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}

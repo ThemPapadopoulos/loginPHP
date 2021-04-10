@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Forgot</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <ul>
+          <li>Αρχική</li>
+          <li>Υπηρεσίες</li>
+          <li>Προφίλ</li>
+          <li>Προιόντα</li>
+          <li>Επικοινωνία</li>
+        </ul>
+      </header>
+      <hr />
+      <div class="main">
+       Επαναφορά Κωδικού Λογαριασμού
+        <p><strong>Δώστε μας το email του λογαριασμού σας !</strong></p>
+        <form class="form" action="register.php" method="post" autocomplete="off">
+          <span>
+            <i class="fa fa-user icon"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" Email"
+              required
+            />
+          </span>
+
+
+          <button type="submit" value="Forgot">Reset Password</button>
+          <footer>
+            Διαφορετικά Δημιουργήστε Νέο Λογαριασμό
+            <a href="register.html"> <strong>Επιστροφή στην σελίδα εγγραφής</strong> </a>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

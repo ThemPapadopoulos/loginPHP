@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <ul>
+          <li>Αρχική</li>
+          <li>Υπηρεσίες</li>
+          <li>Προφίλ</li>
+          <li>Προιόντα</li>
+          <li>Επικοινωνία</li>
+        </ul>
+      </header>
+      <hr />
+      <div class="main">
+        Lorem ipsum dolor sit amet quia fugiat soluta dignissimos necessitatibus
+        aliquam magni sed, explicabo modi. blanditiis sit nemo. Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Quia aspernatur corporis
+        iure, nobis accusamus inventore quisquam atque laborum dolorum provident
+        s
+
+        <p><strong>Δημιουργήστε έναν λογαριασμό !</strong></p>
+        <form class="form" action="register.php" method="post" autocomplete="off">
+          <span>
+            <i class="fa fa-user icon"></i>
+            <input
+              type="text"
+              name="username"
+              id="name"
+              placeholder=" ονοματεπώνυμο"
+              required
+            />
+          </span>
+          <span>
+            <i class="fa fa-user icon"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" Email"
+              required
+            />
+          </span>
+          <span>
+            <i class="fa fa-lock icon"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder=" Κωδικός Πρόσβασης"
+              required
+            />
+          </span>
+          <span>
+            <i class="fa fa-lock icon"></i>
+            <input
+              type="password"
+              name="password2"
+              id="password2"
+              placeholder=" Επανάληψη κωδικού Πρόσβασης"
+              required
+            />
+          </span>
+
+          <button type="submit" value="Register">Sign Up</button>
+          <footer>
+            Έχετε ήδη λογαριασμό;
+            <a href="index.html"> Επιστροφή στην σελίδα σύνδεσης</a>
+          </footer>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
